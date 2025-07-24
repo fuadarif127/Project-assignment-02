@@ -65,7 +65,7 @@ body{
     margin: 40px 150px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    
 }
 .main-text-h{
      font-size: 50px;
@@ -127,4 +127,27 @@ body{
     position: absolute;
     left: 510px;
     top: 2180px;
+}
+.main-bottom{
+    max-width: 1140px;
+    margin: 20px 150px;
+    text-align: center;
+}
+.main-bottom-h{
+    font-size: 50px;
+    font-family: "Noto Serif";
+}
+.main-bottom-p{
+    width: 888px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 150px;
+}
+.main-bottom-collage{
+    display: flex;
+    margin: 20px 150px;
+    gap: 25px;
+    align-items: center;
+}
+.main-bottom-collage img{
+    border-radius: 20px;
 }
