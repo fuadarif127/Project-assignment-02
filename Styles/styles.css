@@ -1,3 +1,7 @@
+body{
+    font-size: 22px;
+}
+
 
 .open-sans-inter {
   font-family: "Open Sans", sans-serif;
@@ -19,23 +23,27 @@
 
 .header-nav{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 2fr 350px .25fr;
     align-items: center;
+    max-width: 1140px;
     margin: 20px 150px;
-    width: 100%;
+    
 }
 
 .nav-item{
     display: flex;
+        gap: 50px;
+}
+.nav-item a{
     text-decoration: none;
     color: #252432;
-    gap: 50px;
 }
 
 .banner{
     display: flex;
-    margin: 20px 150px;
+    max-width: 1140px;
     align-items: center;
+    margin: 20px 150px;
 }
 .banner-text{
     width: 50%;
@@ -43,4 +51,51 @@
 .banner-image{
     width: 50%;
     text-align: right;
+}
+.banner-header{
+    font-family: "Noto Serif";
+    font-size: 65px;
+    font-weight: 600;
+}
+.main-text{
+    max-width: 1140px;
+    margin: 40px 150px;
+    text-align: center;
+}
+.main-text-h{
+     font-size: 50px;
+     font-family: "Noto Serif";
+}
+.main-text-p{
+    width: 1140px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.different-plant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1140px;
+    margin: 20px 150px;
+   
+}
+.plant-sample1{
+    text-align: center;
+    
+}
+.sample-h4{
+    font-weight: 500;
+}
+.sample-h5{
+    font-weight: 700;
+}
+.button-a{
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding:10px;
+    font-size: 16px;
+    border: none;
+
 }
