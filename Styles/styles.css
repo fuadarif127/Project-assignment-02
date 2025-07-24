@@ -26,7 +26,7 @@ body{
     grid-template-columns: 2fr 350px .25fr;
     align-items: center;
     max-width: 1140px;
-    margin: 20px 150px;
+    margin: 30px 150px 180px 150px;
     
 }
 
@@ -57,18 +57,25 @@ body{
     font-size: 65px;
     font-weight: 600;
 }
+.banner-para{
+    color: rgba(0, 0, 0, 0.5);
+}
 .main-text{
     max-width: 1140px;
     margin: 40px 150px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .main-text-h{
      font-size: 50px;
      font-family: "Noto Serif";
 }
 .main-text-p{
-    width: 1140px;
+    width: 888px;
     color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    margin: 40px 150px;
 }
 
 .different-plant{
@@ -76,12 +83,11 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     max-width: 1140px;
-    margin: 20px 150px;
+    margin: 20px 150px 200px 150px;
    
 }
 .plant-sample1{
-    text-align: center;
-    
+    text-align: center;   
 }
 .sample-h4{
     font-weight: 500;
@@ -97,5 +103,28 @@ body{
     padding:10px;
     font-size: 16px;
     border: none;
-
+}
+.main-middle{
+    display: flex;
+    max-width: 1140px;
+    margin: 20px 150px;
+    gap: 40px;
+    align-items: center;
+}
+.main-middle-header{
+    font-size: 50px;
+    font-family: "Noto Serif";   
+}
+.main-middle-ht{
+    padding: 38px;
+}
+.main-middle-text{
+    color: rgba(0, 0, 0, 0.5);
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    left: 510px;
+    top: 2180px;
 }
