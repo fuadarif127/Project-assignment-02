@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-size: 22px;
 }
@@ -54,6 +53,9 @@ body {
 .banner-image {
   width: 50%;
   text-align: right;
+}
+.banner-image > img {
+  width: 100%;
 }
 .banner-header {
   font-family: "Noto Serif";
@@ -258,7 +260,6 @@ body {
   padding: 20px 0;
 }
 .join-input {
-  /* display: flex; */
   width: 644px;
   height: 50px;
   padding: 20px;
@@ -308,3 +309,110 @@ body {
   height: 36px;
 }
 /* responsive */
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .nav-item {
+    display: none;
+    max-width: 393px;
+  }
+  .logo img {
+    width: 63px;
+    height: 38px;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    width: 100%;
+  }
+
+  .banner-header {
+    font-size: 24px;
+  }
+  .banner-image > img {
+    width: 100%;
+    margin: auto;
+  }
+  .different-plant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 362px;
+    margin: 16px 16px;
+  }
+  .different-plant img {
+  }
+  .badge {
+    display: none;
+  }
+  .main-middle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 16px;
+    width: 362px;
+  }
+
+  .main-text-p {
+    width: 393px;
+    margin: auto;
+  }
+  .main-bottom-p {
+    width: 393px;
+    margin: auto;
+  }
+  .main-bottom-collage {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .join-section {
+    background-size: cover;
+    margin-top: 100px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+  }
+  .join-container {
+    width: 100%;
+    align-items: center;
+  }
+  .main-bottom {
+    align-items: center;
+  }
+  .main-join-section {
+    font-size: 20px;
+  }
+  .join-input {
+    width: 218px;
+    height: 50px;
+    margin: auto;
+  }
+  .join-input-form {
+    margin: auto;
+  }
+  .join-button {
+    width: 103px;
+    height: 50px;
+    background-color: #e95a08;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+}
