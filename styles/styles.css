@@ -329,6 +329,7 @@ body {
   .header-nav {
     display: flex;
     justify-content: space-between;
+    margin: 16px;
   }
   .banner {
     margin: 0 16px;
@@ -340,11 +341,12 @@ body {
   }
 
   .banner-header {
+    width: 200px;
     font-size: 24px;
   }
   .banner-image > img {
     justify-content: center;
-    width: 280px;
+    width: 250px;
     margin: 0 16px;
   }
   .different-plant {
@@ -386,9 +388,8 @@ body {
     width: 100%;
   }
   .main-middle-header {
-    font-size: 24px;
-    gap: 10px;
-    margin: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
     text-align: left;
   }
   .main-middle-text {
@@ -401,12 +402,17 @@ body {
   .main-bottom-h {
     font-size: 24px;
   }
+  .main-bottom-text {
+    width: 300px;
+    margin: 16px;
+    justify-content: center;
+  }
   .main-text-p {
-    width: 393px;
-    margin: auto;
+    width: 350px;
+    margin: 0 16px;
   }
   .main-bottom-p {
-    width: 393px;
+    width: 350px;
     margin: auto;
   }
   .main-bottom-collage {
@@ -420,10 +426,18 @@ body {
   .img2 {
     width: 95%;
   }
+  .image-content1 {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
   .image-content2 {
     position: absolute;
     top: 80px;
-    right: 80px;
+    right: 70px;
     color: #ffffff;
     font-size: 20px;
   }
@@ -437,7 +451,7 @@ body {
   .join-section {
     background-size: cover;
     margin-top: 50px;
-    width: 400px;
+    width: 370px;
     height: 200px;
   }
   .join-container {
