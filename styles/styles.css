@@ -320,18 +320,20 @@ body {
   }
   .nav-item {
     display: none;
-    max-width: 393px;
   }
   .logo img {
     width: 63px;
     height: 38px;
+    margin: 10px 16px;
   }
   .header-nav {
     display: flex;
     justify-content: space-between;
   }
   .banner {
+    margin: 0 16px;
     flex-direction: column-reverse;
+    gap: 10px;
   }
   .banner-text {
     width: 100%;
@@ -341,16 +343,36 @@ body {
     font-size: 24px;
   }
   .banner-image > img {
-    width: 100%;
-    margin: auto;
+    justify-content: center;
+    width: 280px;
+    margin: 0 16px;
   }
   .different-plant {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 362px;
-    margin: 16px 16px;
+    margin: 0px 16px;
+    justify-content: center;
   }
   .different-plant img {
+    width: 100%;
+    margin: auto;
+  }
+  .sample-h4 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .sample-h5 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .button-a {
+    width: 170px;
+    height: 50px;
+    background-color: #e95a08;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
   }
   .badge {
     display: none;
@@ -358,10 +380,27 @@ body {
   .main-middle {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 16px;
-    width: 362px;
+    margin: 0 16px;
   }
-
+  .main-middle-badge img {
+    width: 100%;
+  }
+  .main-middle-header {
+    font-size: 24px;
+    gap: 10px;
+    margin: 10px;
+    text-align: left;
+  }
+  .main-middle-text {
+    gap: 10px;
+  }
+  .main-text-h {
+    font-size: 24px;
+    padding: 10px;
+  }
+  .main-bottom-h {
+    font-size: 24px;
+  }
   .main-text-p {
     width: 393px;
     margin: auto;
@@ -374,11 +413,32 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .main-bottom-collage img {
+    justify-content: center;
+    margin: 0 16px;
+  }
+  .img2 {
+    width: 95%;
+  }
+  .image-content2 {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .image-content2 h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .image-content2 h2 {
+    font-size: 20px;
+  }
   .join-section {
     background-size: cover;
-    margin-top: 100px;
-    width: 100%;
-    height: 80%;
+    margin-top: 50px;
+    width: 393px;
+    height: 275px;
     justify-content: center;
   }
   .join-container {
@@ -387,6 +447,7 @@ body {
   }
   .main-bottom {
     align-items: center;
+    margin: 0 16px;
   }
   .main-join-section {
     font-size: 20px;
