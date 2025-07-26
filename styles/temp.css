@@ -308,8 +308,3 @@ body {
   height: 36px;
 }
 /* responsive */
-@media screen and (max-width: 576px) {
-  .nav-item {
-    display: none;
-  }
-}
