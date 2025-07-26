@@ -437,16 +437,17 @@ body {
   .join-section {
     background-size: cover;
     margin-top: 50px;
-    width: 393px;
-    height: 275px;
-    justify-content: center;
+    width: 400px;
+    height: 200px;
   }
   .join-container {
-    width: 100%;
+    width: 350px;
+    height: 150px;
+    justify-content: center;
     align-items: center;
+    margin: 0 16px;
   }
   .main-bottom {
-    align-items: center;
     margin: 0 16px;
   }
   .main-join-section {
@@ -458,8 +459,12 @@ body {
     margin: auto;
   }
   .join-input-form {
+    position: relative;
     margin: auto;
+    justify-content: center;
+    align-items: center;
   }
+
   .join-button {
     width: 103px;
     height: 50px;
